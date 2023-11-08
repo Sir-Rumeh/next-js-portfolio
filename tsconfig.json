@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"lib": ["dom", "esnext"],
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"noEmit": true,
+		"noEmitOnError": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true
+	},
+	"exclude": ["node_modules", ".next"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
