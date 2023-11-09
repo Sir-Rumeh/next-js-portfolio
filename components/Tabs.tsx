@@ -21,7 +21,7 @@ function CustomTabPanel(props: TabPanelProps) {
 
 	return (
 		<div
-			className="py-3 px-5"
+			className="py-1 px-5"
 			role="tabpanel"
 			hidden={value !== index}
 			id={`simple-tabpanel-${index}`}
@@ -71,6 +71,7 @@ export default function BasicTabs({ tabList, tabPanel, initialIndex }: BasicTabs
 								{...a11yProps(index)}
 								key={item}
 								sx={{
+									color: "#44A8B3",
 									marginTop: `${index == 0 ? "" : "1rem"}`,
 									marginBottom: `${index == tabList.length - 1 ? "0.1rem" : ""}`,
 									fontSize: "16px",
