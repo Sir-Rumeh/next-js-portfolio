@@ -12,7 +12,7 @@ const Projects = () => {
 				<div className="grid md:grid-cols-2 gap-8">
 					{projects.map((project) => {
 						return (
-							<div id={project.name}>
+							<div key={project.name}>
 								<ProjectItem
 									title={project.name}
 									backgroundImg={project.image}
