@@ -26,22 +26,22 @@ const Main = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-lightPrimary duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-secondary duration-300">
 								<FaLinkedinIn title="Linkedin" />
 							</div>
 						</a>
 						<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 								<FaGithub title="GitHub" />
 							</div>
 						</a>
 						<Link href="/#contact">
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 								<AiOutlineMail title="Contact" />
 							</div>
 						</Link>
 						<Link href="/resume">
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 								<BsFillPersonLinesFill title="Resume" />
 							</div>
 						</Link>

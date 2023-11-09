@@ -39,11 +39,19 @@ const Navbar = () => {
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 				<Link href="/">
 					<a>
-						<Image src={NavLogo} alt="/" width="125" height="50" className="cursor-pointer" />
+						<Image
+							src={NavLogo}
+							alt="/"
+							width="125"
+							height="50"
+							className="cursor-pointer"
+							loading="lazy"
+						/>
 					</a>
 				</Link>
 				<div>
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+						{/* DO MAP HERE */}
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/">Home</Link>
 						</li>
@@ -52,6 +60,9 @@ const Navbar = () => {
 						</li>
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#skills">Skills</Link>
+						</li>
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
+							<Link href="/#experience">Experience</Link>
 						</li>
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#projects">Projects</Link>
@@ -88,7 +99,7 @@ const Navbar = () => {
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
 								<a>
-									<Image src={NavLogo} width="87" height="35" alt="/" />
+									<Image src={NavLogo} width="87" height="35" alt="/" loading="lazy" />
 								</a>
 							</Link>
 							<div
@@ -121,6 +132,11 @@ const Navbar = () => {
 									Skills
 								</li>
 							</Link>
+							<Link href="/#experience" className="hover:text-primary">
+								<li onClick={() => setNav(false)} className="py-4 text-sm">
+									Experience
+								</li>
+							</Link>
 							<Link href="/#projects" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Projects
@@ -146,19 +162,19 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-secondary duration-300">
 										<FaLinkedinIn title="Linkedin" />
 									</div>
 								</a>
 								<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-secondary duration-300">
 										<FaGithub title="GitHub" />
 									</div>
 								</a>
 								<Link href="/#contact">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300"
+										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-secondary duration-300"
 									>
 										<AiOutlineMail title="Contact" />
 									</div>
@@ -166,7 +182,7 @@ const Navbar = () => {
 								<Link href="/resume">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300"
+										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-secondary duration-300"
 									>
 										<BsFillPersonLinesFill title="Resume" />
 									</div>

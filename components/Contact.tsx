@@ -22,6 +22,7 @@ const Contact = () => {
 									className="rounded-xl hover:scale-105 ease-in duration-300"
 									src={ContactImg}
 									alt="/"
+									loading="lazy"
 								/>
 							</div>
 							<div>
@@ -43,19 +44,19 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 											<FaLinkedinIn title="Linkedin" />
 										</div>
 									</a>
 									<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
-										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 											<FaGithub title="GitHub" />
 										</div>
 									</a>
 
 									<Link href="/resume">
 										<a>
-											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
+											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-secondary duration-300">
 												<BsFillPersonLinesFill title="Resume" />
 											</div>
 										</a>
