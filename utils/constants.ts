@@ -22,7 +22,7 @@ export const skills = [
 		image: NextJS,
 	},
 	{
-		name: "Tailwind",
+		name: "Tailwind CSS",
 		image: Tailwind,
 	},
 	{
