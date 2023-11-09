@@ -44,24 +44,24 @@ const Navbar = () => {
 				</Link>
 				<div>
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/">Home</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#about">About</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#skills">Skills</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#projects">Projects</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#contact">Contact</Link>
 						</li>
 
-						<li className="ml-20 text-sm uppercase hover:border-b flex items-center gap-x-3">
-							<div className="w-4 h-[0.1px] bg-black"></div>
+						<li className="ml-20 text-sm uppercase hover:border-b flex items-center gap-x-3 hover:text-primary ">
+							<div className="w-4 h-[0.1px] bg-primary"></div>
 							<Link href="/resume">Resume</Link>
 						</li>
 					</ul>
@@ -106,40 +106,40 @@ const Navbar = () => {
 					</div>
 					<div className="py-4 flex flex-col">
 						<ul className="uppercase">
-							<Link href="/">
+							<Link href="/" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Home
 								</li>
 							</Link>
-							<Link href="/#about">
+							<Link href="/#about" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									About
 								</li>
 							</Link>
-							<Link href="/#skills">
+							<Link href="/#skills" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Skills
 								</li>
 							</Link>
-							<Link href="/#projects">
+							<Link href="/#projects" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Projects
 								</li>
 							</Link>
 
-							<Link href="/#contact">
+							<Link href="/#contact" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Contact
 								</li>
 							</Link>
-							<Link href="/resume">
+							<Link href="/resume" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Resume
 								</li>
 							</Link>
 						</ul>
 						<div className="pt-40">
-							<p className="uppercase tracking-widest text-[#5651e5]">Let&#39;s Connect</p>
+							<p className="uppercase tracking-widest text-primary">Let&#39;s Connect</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
 								<a
 									href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
