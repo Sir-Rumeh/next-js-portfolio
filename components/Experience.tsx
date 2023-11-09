@@ -3,17 +3,17 @@ import Details from "./ExperienceDetails";
 import BasicTabs from "./Tabs";
 
 const Experience = () => {
-	const MuzzlabExperience = {
-		companyName: "MuzzlabExperience",
-		role: "",
-		duration: "",
+	const FCMBExperience = {
+		companyName: "FCMB",
+		role: "Front-End Developer",
+		duration: "July 2022 - Present",
 		activities: ["1", "2"],
 	};
 
-	const FCMBExperience = {
-		companyName: "",
-		role: "",
-		duration: "",
+	const MuzzlabExperience = {
+		companyName: "Muzzlab Technologies",
+		role: "Front-End Web Developer",
+		duration: "April 2020 - July 2022",
 		activities: ["1", "2"],
 	};
 
