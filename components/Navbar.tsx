@@ -58,12 +58,14 @@ const Navbar = () => {
 							<Link href="/#projects">Projects</Link>
 						</li>
 						<li className="ml-10 text-sm uppercase hover:border-b">
-							<Link href="/resume">Resume</Link>
-						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
 							<Link href="/#contact">Contact</Link>
 						</li>
+						<li className="ml-20 text-sm uppercase hover:border-b flex items-center gap-x-3">
+							<div className="w-4 h-[0.1px] bg-black"></div>
+							<Link href="/resume">Resume</Link>
+						</li>
 					</ul>
+
 					{/* Hamburger Icon */}
 					<div style={{ color: `${linkColor}` }} onClick={handleNav} className="md:hidden">
 						<AiOutlineMenu size={25} />
@@ -124,14 +126,15 @@ const Navbar = () => {
 									Projects
 								</li>
 							</Link>
-							<Link href="/resume">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
-									Resume
-								</li>
-							</Link>
+
 							<Link href="/#contact">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Contact
+								</li>
+							</Link>
+							<Link href="/resume">
+								<li onClick={() => setNav(false)} className="py-4 text-sm">
+									Resume
 								</li>
 							</Link>
 						</ul>
@@ -144,12 +147,12 @@ const Navbar = () => {
 									rel="noreferrer"
 								>
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaLinkedinIn />
+										<FaLinkedinIn title="Linkedin" />
 									</div>
 								</a>
 								<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaGithub />
+										<FaGithub title="GitHub" />
 									</div>
 								</a>
 								<Link href="/#contact">
@@ -157,7 +160,7 @@ const Navbar = () => {
 										onClick={() => setNav(!nav)}
 										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
 									>
-										<AiOutlineMail />
+										<AiOutlineMail title="Contact" />
 									</div>
 								</Link>
 								<Link href="/resume">
@@ -165,7 +168,7 @@ const Navbar = () => {
 										onClick={() => setNav(!nav)}
 										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
 									>
-										<BsFillPersonLinesFill />
+										<BsFillPersonLinesFill title="Resume" />
 									</div>
 								</Link>
 							</div>
