@@ -9,7 +9,7 @@ const resume = () => {
 				<title>Nosarumen | Resume</title>
 				<meta
 					name="description"
-					content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+					content="I’m a front-end web developer specialized in usinf react, nextjs and typescript to build exceptional user interface."
 				/>
 				<link rel="icon" href="/fav.png" />
 			</Head>
@@ -17,17 +17,17 @@ const resume = () => {
 			<div className="max-w-[940px] mx-auto p-2 pt-[120px]">
 				<h2 className="text-center">Resume</h2>
 				<div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-					<h2 className="text-center">Clint Briley</h2>
+					<h2 className="text-center">Nosarumen Imuentinyan</h2>
 					<div className="flex">
 						<a
 							href="https://www.linkedin.com/in/clint-briley-50056920a/"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
+							<FaLinkedinIn title="Linkedin" size={20} style={{ marginRight: "1rem" }} />
 						</a>
 						<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
-							<FaGithub size={20} style={{ marginRight: "1rem" }} />
+							<FaGithub title="GitHub" size={20} style={{ marginRight: "1rem" }} />
 						</a>
 					</div>
 				</div>

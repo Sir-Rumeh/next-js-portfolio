@@ -13,16 +13,16 @@ const Main = () => {
 						Hi, I&#39;m <span className="text-[#5651e5]"> Nosarumen</span>
 					</h1>
 					<h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
-					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-xl">
 						I’m focused on building responsive front-end web applications integrating back-end
 						technologies.
 					</p>
-					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-xl">
 						I also do a little bit of backend using node.js
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a
-							href="https://www.linkedin.com/in/clint-briley-50056920a/"
+							href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -30,7 +30,7 @@ const Main = () => {
 								<FaLinkedinIn title="Linkedin" />
 							</div>
 						</a>
-						<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
+						<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 								<FaGithub title="GitHub" />
 							</div>

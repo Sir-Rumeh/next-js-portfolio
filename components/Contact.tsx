@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -25,18 +25,21 @@ const Contact = () => {
 								/>
 							</div>
 							<div>
-								<h2 className="py-2">Clint Briley</h2>
-								<p>Front-End Developer</p>
-								<p className="py-4">
+								<h2 className="py-2">Nosarumen Imuentinyan</h2>
+								<p className="text-xl mt-2">Front-End Developer</p>
+								<p className="py-4 text-xl">
 									I am available for freelance or full-time positions. Contact me and
 									let&apos;s talk.
 								</p>
 							</div>
 							<div>
-								<p className="uppercase pt-8">Connect With Me</p>
+								<div className="flex justify-between items-center mt-8">
+									<p className="uppercase text-xl">Connect With Me</p>
+									<AiOutlineArrowRight className="text-xl" />
+								</div>
 								<div className="flex items-center justify-between py-4">
 									<a
-										href="https://www.linkedin.com/in/clint-briley-50056920a/"
+										href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
 										target="_blank"
 										rel="noreferrer"
 									>
@@ -44,15 +47,12 @@ const Contact = () => {
 											<FaLinkedinIn title="Linkedin" />
 										</div>
 									</a>
-									<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
+									<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
 										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 											<FaGithub title="GitHub" />
 										</div>
 									</a>
 
-									{/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-										<AiOutlineMail />
-									</div> */}
 									<Link href="/resume">
 										<a>
 											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

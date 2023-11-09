@@ -142,7 +142,7 @@ const Navbar = () => {
 							<p className="uppercase tracking-widest text-[#5651e5]">Let&#39;s Connect</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
 								<a
-									href="https://www.linkedin.com/in/clint-briley-50056920a/"
+									href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
 									target="_blank"
 									rel="noreferrer"
 								>
@@ -150,7 +150,7 @@ const Navbar = () => {
 										<FaLinkedinIn title="Linkedin" />
 									</div>
 								</a>
-								<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
+								<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 										<FaGithub title="GitHub" />
 									</div>
