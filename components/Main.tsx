@@ -17,6 +17,9 @@ const Main = () => {
 						I’m focused on building responsive front-end web applications integrating back-end
 						technologies.
 					</p>
+					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+						I also do a little bit of backend using node.js
+					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a
 							href="https://www.linkedin.com/in/clint-briley-50056920a/"
@@ -24,22 +27,22 @@ const Main = () => {
 							rel="noreferrer"
 						>
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-								<FaLinkedinIn />
+								<FaLinkedinIn title="Linkedin" />
 							</div>
 						</a>
 						<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-								<FaGithub />
+								<FaGithub title="GitHub" />
 							</div>
 						</a>
 						<Link href="/#contact">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-								<AiOutlineMail />
+								<AiOutlineMail title="Contact" />
 							</div>
 						</Link>
 						<Link href="/resume">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-								<BsFillPersonLinesFill />
+								<BsFillPersonLinesFill title="Resume" />
 							</div>
 						</Link>
 					</div>

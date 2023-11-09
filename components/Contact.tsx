@@ -41,22 +41,22 @@ const Contact = () => {
 										rel="noreferrer"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-											<FaLinkedinIn />
+											<FaLinkedinIn title="Linkedin" />
 										</div>
 									</a>
 									<a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
 										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-											<FaGithub />
+											<FaGithub title="GitHub" />
 										</div>
 									</a>
 
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+									{/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 										<AiOutlineMail />
-									</div>
+									</div> */}
 									<Link href="/resume">
 										<a>
 											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-												<BsFillPersonLinesFill />
+												<BsFillPersonLinesFill title="Resume" />
 											</div>
 										</a>
 									</Link>
