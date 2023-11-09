@@ -27,14 +27,14 @@ const Contact = () => {
 							<div>
 								<h2 className="py-2">Nosarumen Imuentinyan</h2>
 								<p className="text-xl mt-2">Front-End Developer</p>
-								<p className="py-4 text-xl">
+								<p className="py-4 text-lg">
 									I am available for freelance or full-time positions. Contact me and
 									let&apos;s talk.
 								</p>
 							</div>
 							<div>
 								<div className="flex justify-between items-center mt-8">
-									<p className="uppercase text-xl">Connect With Me</p>
+									<p className="uppercase text-lg">Connect With Me</p>
 									<AiOutlineArrowRight className="text-xl" />
 								</div>
 								<div className="flex items-center justify-between py-4">
@@ -43,19 +43,19 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
 											<FaLinkedinIn title="Linkedin" />
 										</div>
 									</a>
 									<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
-										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
 											<FaGithub title="GitHub" />
 										</div>
 									</a>
 
 									<Link href="/resume">
 										<a>
-											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-lightPrimary duration-300">
 												<BsFillPersonLinesFill title="Resume" />
 											</div>
 										</a>

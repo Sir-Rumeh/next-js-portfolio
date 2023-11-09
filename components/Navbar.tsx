@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import { useRouter } from 'next/router';
 import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
@@ -60,6 +59,7 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b">
 							<Link href="/#contact">Contact</Link>
 						</li>
+
 						<li className="ml-20 text-sm uppercase hover:border-b flex items-center gap-x-3">
 							<div className="w-4 h-[0.1px] bg-black"></div>
 							<Link href="/resume">Resume</Link>
@@ -146,19 +146,19 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300">
 										<FaLinkedinIn title="Linkedin" />
 									</div>
 								</a>
 								<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300">
 										<FaGithub title="GitHub" />
 									</div>
 								</a>
 								<Link href="/#contact">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300"
 									>
 										<AiOutlineMail title="Contact" />
 									</div>
@@ -166,7 +166,7 @@ const Navbar = () => {
 								<Link href="/resume">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-lightPrimary duration-300"
 									>
 										<BsFillPersonLinesFill title="Resume" />
 									</div>
