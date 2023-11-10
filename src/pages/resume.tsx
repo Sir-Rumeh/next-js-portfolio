@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 const resume = () => {
 	return (
@@ -53,6 +54,11 @@ const resume = () => {
 					Effective and proven track record of critical thinking, idea generation, and optimizing
 					efficiencies.
 				</p>
+				<div className="mt-4">
+					<Link href="/#projects">
+						<p className="underline cursor-pointer text-lg hover:text-primary">Back</p>
+					</Link>
+				</div>
 			</div>
 		</>
 	);
