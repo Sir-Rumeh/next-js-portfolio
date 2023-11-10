@@ -75,7 +75,7 @@ const Contact = () => {
 						<div className="p-4">
 							<form>
 								<div className="flex flex-col py-2">
-									<label htmlFor="name" className="uppercase text-sm py-2 text-primary">
+									<label htmlFor="name" className="uppercase text-sm py-2">
 										Name
 									</label>
 									<input
@@ -87,7 +87,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="email" className="uppercase text-sm py-2 text-primary">
+									<label htmlFor="email" className="uppercase text-sm py-2">
 										Email
 									</label>
 									<input
@@ -99,7 +99,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="subject" className="uppercase text-sm py-2 text-primary">
+									<label htmlFor="subject" className="uppercase text-sm py-2">
 										Subject
 									</label>
 									<input
@@ -111,7 +111,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="message" className="uppercase text-sm py-2 text-primary">
+									<label htmlFor="message" className="uppercase text-sm py-2">
 										Message
 									</label>
 									<textarea
