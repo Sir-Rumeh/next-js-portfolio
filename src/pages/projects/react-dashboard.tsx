@@ -37,7 +37,7 @@ const ReactDashboard = () => {
 						<p className="text-lg">Project</p>
 						<h2>Overview</h2>
 						<p className="text-lg mt-2">
-							This is A simple frontend admin dashboard application built using syncfusion UI
+							This is a simple frontend admin dashboard application built using syncfusion UI
 							components
 						</p>
 						<p className="text-lg mt-4">🌟 key features:</p>
