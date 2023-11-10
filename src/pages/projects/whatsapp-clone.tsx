@@ -45,8 +45,8 @@ const WhatsappClone = () => {
 						<p className="text-lg">Project</p>
 						<h2>Overview</h2>
 						<p className="text-lg mt-2">
-							I built this app to demonstrate my knowledge working with Next JS and creating API
-							endpoints using Node JS and Express framework.
+							I built this fullstack app to demonstrate my knowledge working with Next JS and
+							creating API endpoints using Node JS and Express framework.
 						</p>
 						<p className="text-lg mt-2">
 							This app was built using Next JS for the frontend and Node JS with Express for the
@@ -63,7 +63,7 @@ const WhatsappClone = () => {
 						<p className="text-lg mt-4">🌟 key features:</p>
 						<ol className="text-lg mt-2">
 							<li>User Authentication</li>
-							<li>Real-time Messaging and notifications using ws socket library</li>
+							<li>Real-time Messaging and Notifications Using WS Socket Library</li>
 							<li>Text and Voice / Audio Messaging</li>
 							<li>Image File Sharing</li>
 							<li>Voice / Video Call with Zegocloud</li>
