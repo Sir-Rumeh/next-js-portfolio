@@ -74,51 +74,49 @@ const Contact = () => {
 					<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
 						<div className="p-4">
 							<form>
-								<div className="grid md:grid-cols-2 gap-4 w-full py-2">
-									<div className="flex flex-col">
-										<label htmlFor="name" className="uppercase text-sm py-2">
-											Name
-										</label>
-										<input
-											id="name"
-											className="border-2 rounded-lg p-3 flex border-gray-300"
-											type="text"
-											name="name"
-											onChange={(e) => setName(e.target.value)}
-										/>
-									</div>
+								<div className="flex flex-col py-2">
+									<label htmlFor="name" className="uppercase text-sm py-2 text-primary">
+										Name
+									</label>
+									<input
+										id="name"
+										className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
+										type="text"
+										name="name"
+										onChange={(e) => setName(e.target.value)}
+									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="email" className="uppercase text-sm py-2">
+									<label htmlFor="email" className="uppercase text-sm py-2 text-primary">
 										Email
 									</label>
 									<input
 										id="email"
-										className="border-2 rounded-lg p-3 flex border-gray-300"
+										className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
 										type="email"
 										name="email"
 										onChange={(e) => setEmail(e.target.value)}
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="subject" className="uppercase text-sm py-2">
+									<label htmlFor="subject" className="uppercase text-sm py-2 text-primary">
 										Subject
 									</label>
 									<input
 										id="subject"
-										className="border-2 rounded-lg p-3 flex border-gray-300"
+										className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
 										type="text"
 										name="subject"
 										onChange={(e) => setSubject(e.target.value)}
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label htmlFor="message" className="uppercase text-sm py-2">
+									<label htmlFor="message" className="uppercase text-sm py-2 text-primary">
 										Message
 									</label>
 									<textarea
 										id="message"
-										className="border-2 rounded-lg p-3 border-gray-300"
+										className="border-2 rounded-lg p-3 border-gray-300 resize-none focus:outline-primary"
 										rows={10}
 										name="message"
 										onChange={(e) => setMessage(e.target.value)}
