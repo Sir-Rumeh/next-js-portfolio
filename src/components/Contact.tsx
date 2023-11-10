@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -8,6 +8,10 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "public/assets/contact.jpg";
 
 const Contact = () => {
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [subject, setSubject] = useState("");
+	const [message, setMessage] = useState("");
 	return (
 		<div id="contact" className="w-full lg:h-screen">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -69,51 +73,55 @@ const Contact = () => {
 					{/* right */}
 					<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
 						<div className="p-4">
-							<form
-								action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
-								method="POST"
-								encType="multipart/form-data"
-							>
+							<form>
 								<div className="grid md:grid-cols-2 gap-4 w-full py-2">
 									<div className="flex flex-col">
-										<label className="uppercase text-sm py-2">Name</label>
+										<label htmlFor="name" className="uppercase text-sm py-2">
+											Name
+										</label>
 										<input
+											id="name"
 											className="border-2 rounded-lg p-3 flex border-gray-300"
 											type="text"
 											name="name"
-										/>
-									</div>
-									<div className="flex flex-col">
-										<label className="uppercase text-sm py-2">Phone Number</label>
-										<input
-											className="border-2 rounded-lg p-3 flex border-gray-300"
-											type="text"
-											name="phone"
+											onChange={(e) => setName(e.target.value)}
 										/>
 									</div>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Email</label>
+									<label htmlFor="email" className="uppercase text-sm py-2">
+										Email
+									</label>
 									<input
+										id="email"
 										className="border-2 rounded-lg p-3 flex border-gray-300"
 										type="email"
 										name="email"
+										onChange={(e) => setEmail(e.target.value)}
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Subject</label>
+									<label htmlFor="subject" className="uppercase text-sm py-2">
+										Subject
+									</label>
 									<input
+										id="subject"
 										className="border-2 rounded-lg p-3 flex border-gray-300"
 										type="text"
 										name="subject"
+										onChange={(e) => setSubject(e.target.value)}
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Message</label>
+									<label htmlFor="message" className="uppercase text-sm py-2">
+										Message
+									</label>
 									<textarea
+										id="message"
 										className="border-2 rounded-lg p-3 border-gray-300"
 										rows={10}
 										name="message"
+										onChange={(e) => setMessage(e.target.value)}
 									></textarea>
 								</div>
 								<button className="w-full p-4 text-gray-100 mt-4">Send Message</button>

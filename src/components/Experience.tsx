@@ -12,7 +12,7 @@ const Experience = () => {
 			"Contributed to the building and optimization of some in-house applications to optimize productivity as well as customer-facing account management applications, which increased customer inflow by automating account opening processes.",
 			"Played an active role in testing, troubleshooting, and resolving issues such as those related to performance, accessibility,  browser compatibility, and security.",
 			"Reviewing and approving pull requests from other team members.",
-			"Collaborating on a large codebase with other developers using git and the Microsoft Azure DevOps cloud solutions platform",
+			"Collaborating on a large codebase with other developers using git and the Microsoft Azure DevOps cloud solutions platform.",
 		],
 	};
 
