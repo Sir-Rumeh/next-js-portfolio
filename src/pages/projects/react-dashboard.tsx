@@ -28,7 +28,7 @@ const ReactDashboard = () => {
 					/>
 					<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
 						<h2 className="py-2">Admin Dashboard App</h2>
-						<h3>React JS / Tailwind CSS / Syncfusion</h3>
+						<h3>React JS / Tailwind CSS / Syncfusion Components</h3>
 					</div>
 				</div>
 
@@ -85,7 +85,7 @@ const ReactDashboard = () => {
 										<RiRadioButtonFill className="pr-1" /> Tailwind CSS
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Syncfusion Components
+										<RiRadioButtonFill className="pr-1" /> Syncfusion
 									</p>
 								</div>
 							</div>
