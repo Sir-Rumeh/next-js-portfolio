@@ -80,7 +80,7 @@ const WhatsappClone = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="px-8 py-2 tracking-widest">Code</button>
+								<button className="px-8 py-2 tracking-widest">Github Code</button>
 							</a>
 							<a
 								href="https://whatsapp-web-clone-client.vercel.app"
@@ -98,37 +98,39 @@ const WhatsappClone = () => {
 							</a>
 						</div>
 					</div>
-					<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 max-h-[70%]">
-						<div className="p-2 text-md">
-							<p className="text-center font-bold pb-2">Technologies</p>
-							<div className="grid grid-cols-3 md:grid-cols-1 ">
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Next JS
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Tailwind CSS
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Javascript
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Node JS & Express
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> PostgreSQL Database
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Prisma ORM
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> WS library
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Zegocloud
-								</p>
-								<p className="text-gray-600 py-2 flex items-center">
-									<RiRadioButtonFill className="pr-1" /> Eden AI Assistant
-								</p>
+					<div className="col-span-4 md:col-span-1 ">
+						<div className="shadow-xl shadow-gray-400 rounded-xl py-4 ">
+							<div className="p-2 text-md">
+								<p className="text-center font-bold pb-2">Technologies</p>
+								<div className="grid grid-cols-3 md:grid-cols-1 ">
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Next JS
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Tailwind CSS
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Javascript
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Node JS & Express
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> PostgreSQL Database
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Prisma ORM
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> WS library
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Zegocloud
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Eden AI Assistant
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
