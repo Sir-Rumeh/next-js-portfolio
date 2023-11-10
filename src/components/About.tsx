@@ -25,13 +25,8 @@ const About = () => {
 						I run Code Commerce, a Youtube channel where I teach web developement and various
 						front-end technologies.
 					</p>
-					<p className="py-2 text-gray-600 text-lg">
-						Personally, I enjoy watching anime, I'd like to think I'm MacGyver because I always come
-						up with the most creative solutions for first-world-problems, and am hoping to apply this
-						to my work as a developer ☺️
-					</p>
 					<Link href="/#projects">
-						<p className="py-2 text-gray-600 underline cursor-pointer text-lg">
+						<p className="py-2 text-gray-600 underline cursor-pointer text-lg hover:text-primary">
 							Check out some of my latest projects.
 						</p>
 					</Link>

@@ -1,5 +1,4 @@
 import React from "react";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
 import ProjectItem from "./ProjectItem";
 import { projects } from "../utils/constants";
 

@@ -21,7 +21,7 @@ function CustomTabPanel(props: TabPanelProps) {
 
 	return (
 		<div
-			className="py-1 px-5"
+			className="py-1 px-5 overflow-y-scroll md:overflow-y-hidden"
 			role="tabpanel"
 			hidden={value !== index}
 			id={`simple-tabpanel-${index}`}
@@ -56,7 +56,13 @@ export default function BasicTabs({ tabList, tabPanel, initialIndex }: BasicTabs
 
 	return (
 		<>
-			<Box sx={{ width: "100%", display: "flex" }}>
+			<Box
+				sx={{
+					width: "100%",
+					display: "flex",
+					height: "30rem",
+				}}
+			>
 				<Box>
 					<Tabs
 						value={value}

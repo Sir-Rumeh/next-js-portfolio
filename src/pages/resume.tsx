@@ -11,7 +11,7 @@ const resume = () => {
 					name="description"
 					content="I’m a front-end web developer specialized in usinf react, nextjs and typescript to build exceptional user interface."
 				/>
-				<link rel="icon" href="/fav.png" />
+				<link rel="icon" href="/fav.ico" />
 			</Head>
 
 			<div className="max-w-[940px] mx-auto p-2 pt-[120px]">

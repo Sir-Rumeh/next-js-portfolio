@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"baseUrl": ".",
 		"target": "esnext",
 		"module": "esnext",
 		"lib": ["dom", "esnext"],
@@ -18,5 +19,13 @@
 		"incremental": true
 	},
 	"exclude": ["node_modules", ".next"],
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tailwind.config.js", "postcss.config.js"]
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"tailwind.config.js",
+		"postcss.config.js"
+	]
 }
