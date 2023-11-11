@@ -35,25 +35,17 @@ const resume = () => {
 				<div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
 					<div className="hidden sm:block">
 						<p>
-							Proven Leadership <span className="px-1">|</span> Web Development{" "}
-							<span className="px-1">|</span> Complex Problem Solving
+							Team Player <span className="px-1">|</span> Web Development{" "}
+							<span className="px-1">|</span> Analytics & Problem Solving
 						</p>
 					</div>
 					<div className="block sm:hidden">
-						<p>Proven Leadership</p>
+						<p>Team Player</p>
 						<p className="py-2">Web Development</p>
-						<p>Complex Problem Solving</p>
+						<p>Analytics & Problem Solving</p>
 					</div>
 				</div>
-				<p className="text-lg">
-					Analytical, innovative, and motivated web development professional with experience in customer
-					service, team leadership, and organizational effectiveness in fast-paced and challenging
-					environments. Adept at developing strategies and driving streamlined operations. Diverse
-					analytical skills, team collaboration, and relationship building. Consummate professional, and
-					motivated leader, with solid interpersonal abilities and complex problem-solving skills.
-					Effective and proven track record of critical thinking, idea generation, and optimizing
-					efficiencies.
-				</p>
+				<div className=""></div>
 				<div className="mt-4">
 					<Link href="/#projects">
 						<p className="underline cursor-pointer text-lg hover:text-primary">Back</p>
