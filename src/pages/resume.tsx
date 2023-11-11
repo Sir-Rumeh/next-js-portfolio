@@ -2,8 +2,26 @@ import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
+import { pdfjs, Document, Page } from "react-pdf";
 
-const resume = () => {
+const ResumePdf = () => {
+	pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+	return (
+		<>
+			<Document
+				file={{
+					url: "/assets/Nosarumen_Imuentinyan.pdf",
+				}}
+				onLoadError={(e) => console.log("Error while loading document! " + e.message)}
+				onSourceError={(e) => console.log("Error while loading document! " + e.message)}
+			>
+				<Page pageIndex={0} />
+			</Document>
+		</>
+	);
+};
+
+const Resume = () => {
 	return (
 		<>
 			<Head>
@@ -45,7 +63,9 @@ const resume = () => {
 						<p>Analytics & Problem Solving</p>
 					</div>
 				</div>
-				<div className=""></div>
+				<div className="max-w-full bg-red-400">
+					<ResumePdf />
+				</div>
 				<div className="mt-4">
 					<Link href="/#projects">
 						<p className="underline cursor-pointer text-lg hover:text-primary">Back</p>
@@ -56,4 +76,4 @@ const resume = () => {
 	);
 };
 
-export default resume;
+export default Resume;
