@@ -52,7 +52,7 @@ export default function BasicTabs({ tabList, tabPanel, initialIndex }: BasicTabs
 
 	React.useEffect(() => {
 		initialIndex && setValue(initialIndex);
-	}, []);
+	}, [initialIndex]);
 
 	return (
 		<>
