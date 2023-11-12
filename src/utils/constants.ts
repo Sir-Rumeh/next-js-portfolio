@@ -8,7 +8,7 @@ import Docker from "public/assets/skills/docker.png";
 import Tailwind from "public/assets/skills/tailwind.png";
 //
 import WhatsappClone from "public/assets/projects/whatsapp-web-clone/1.png";
-import Easymunch from "public/assets/projects/easy-munch/1.png";
+import Easymunch from "public/assets/projects/easy-munch/munch.png";
 import ReactDashboard from "public/assets/projects/react-dashboard/1.png";
 import MovieApp from "public/assets/projects/react-movie-app/1.png";
 
