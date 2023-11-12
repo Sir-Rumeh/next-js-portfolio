@@ -39,7 +39,7 @@ const About = () => {
 						className="rounded-xl "
 						alt="/"
 						height={800}
-						style={{ width: "100%" }}
+						// style={{ width: "100%" }}
 						loading="lazy"
 					/>
 				</div>
