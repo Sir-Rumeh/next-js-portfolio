@@ -7,10 +7,10 @@ import Git from "public/assets/skills/git.png";
 import Docker from "public/assets/skills/docker.png";
 import Tailwind from "public/assets/skills/tailwind.png";
 //
-import WhatsappClone from "public/assets/projects/whatsapp-web-clone/1.png";
+import WhatsappClone from "public/assets/projects/whatsapp-web-clone/whatsapp.png";
 import Easymunch from "public/assets/projects/easy-munch/munch.png";
-import ReactDashboard from "public/assets/projects/react-dashboard/1.png";
-import MovieApp from "public/assets/projects/react-movie-app/1.png";
+import ReactDashboard from "public/assets/projects/react-dashboard/dashboard.png";
+import MovieApp from "public/assets/projects/react-movie-app/movie.png";
 
 export const skills = [
 	{

@@ -1,4 +1,4 @@
-import DashboardImg from "public/assets/projects/react-dashboard/1.png";
+import DashboardImg from "public/assets/projects/react-dashboard/dashboard.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";

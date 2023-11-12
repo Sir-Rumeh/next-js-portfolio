@@ -1,6 +1,4 @@
 import EasyMunchImg from "public/assets/projects/easy-munch/munch.png";
-// import EasyMunchImg from "../../../public/assets/projects/easy-munch/1.png";
-// import EasyMunchImg from "public/assets/projects/react-dashboard/1.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";

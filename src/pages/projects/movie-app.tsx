@@ -1,4 +1,4 @@
-import MovieAppImg from "public/assets/projects/react-movie-app/1.png";
+import MovieAppImg from "public/assets/projects/react-movie-app/movie.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
