@@ -11,7 +11,7 @@ interface ExperienceDetails {
 
 const Details: React.FC<ExperienceDetails> = ({ experienceDetails }) => {
 	return (
-		<div className="">
+		<div data-aos="fade-up" data-aos-duration="1000">
 			<div className="flex items-center gap-x-3">
 				<h3 className="">{`${experienceDetails.role}`}</h3>
 				<h3 className="text-primary">{`@${experienceDetails.companyName}`}</h3>
