@@ -1,22 +1,24 @@
 import React from "react";
 import Head from "next/head";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
-import { pdfjs, Document, Page } from "react-pdf";
+import Image from "next/image";
+import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
+import ResumeShot from "public/assets/Nosarumen_Imuentinyan_Resume.jpg";
 
 const ResumePdf = () => {
-	pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+	const resumePdfLink = "/assets/Nosarumen_Imuentinyan_Resume.pdf";
 	return (
 		<>
-			<Document
-				file={{
-					url: "/assets/Nosarumen_Imuentinyan.pdf",
-				}}
-				onLoadError={(e) => console.log("Error while loading document! " + e.message)}
-				onSourceError={(e) => console.log("Error while loading document! " + e.message)}
-			>
-				<Page pageIndex={0} />
-			</Document>
+			<div className="relative">
+				<div className="absolute top-0 right-0 z-10 flex items-center justify-center">
+					<a href={resumePdfLink} download className="p-0">
+						<div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer scale-75 hover:scale-100 ease-in  hover:bg-secondary duration-300 ">
+							<FaDownload title="download resume" />
+						</div>
+					</a>
+				</div>
+				<Image src={ResumeShot} className="rounded-xl " alt="/" loading="lazy" />
+			</div>
 		</>
 	);
 };
@@ -63,7 +65,7 @@ const Resume = () => {
 						<p>Analytics & Problem Solving</p>
 					</div>
 				</div>
-				<div className="max-w-full bg-red-400">
+				<div className="max-w-full ">
 					<ResumePdf />
 				</div>
 				<div className="mt-4">

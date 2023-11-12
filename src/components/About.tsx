@@ -34,14 +34,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-					<Image
-						src={AboutImg}
-						className="rounded-xl "
-						alt="/"
-						height={800}
-						// style={{ width: "100%" }}
-						loading="lazy"
-					/>
+					<Image src={AboutImg} className="rounded-xl " alt="/" height={800} loading="lazy" />
 				</div>
 			</div>
 		</div>
