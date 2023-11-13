@@ -11,19 +11,18 @@ const About = () => {
 					<p className="uppercase text-xl tracking-widest text-primary">About</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600 text-lg">
+						Enthusiastic frontend developer who enjoys to develop fast loading and responsive websites
+						that meets customer requirements and achieve business objectives using Typescript, React
+						and other modern technologies while leveraging my experience contributing to a team of
+						software engineers in a Scrum based Agile delivery working environment.
+					</p>
+					<p className="py-2 text-gray-600 text-lg">
 						I specialize in building mobile responsive front-end UI applications that connect with
 						API’s and other backend technologies. I’m passionate about learning new technologies and
 						understand there is more than one way to accomplish a task. Though I am most proficient in
 						building front-end applications using HTML, CSS, Javascript, and React, I am a quick
 						learner and can pick up new tech stacks as needed. I believe that being a great developer
 						is not using one specific language, but choosing the best tool for the job.
-					</p>
-					<p className="py-2 text-gray-600 text-lg">
-						I started web developement in 2013 managing multiple e-commerce websites on CMS platforms
-						such as WordPress, BigCommerce, and Shopify. I have experience working directly with
-						clients and taking mock wireframes all the way to deployed applications. In my spare time
-						I run Code Commerce, a Youtube channel where I teach web developement and various
-						front-end technologies.
 					</p>
 					<div className="w-[50%]">
 						<Link href="/#projects">
