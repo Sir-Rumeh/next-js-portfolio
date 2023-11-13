@@ -15,5 +15,7 @@
 
 ![2](https://github.com/Sir-Rumeh/next-js-portfolio/assets/95687544/27806477-a25e-4635-9095-4024260e9fcd)
 
-![3](https://github.com/Sir-Rumeh/next-js-portfolio/assets/95687544/001f39ed-6244-414e-8672-32eb73497dec)
+![3](https://github.com/Sir-Rumeh/next-js-portfolio/assets/95687544/bb36cf03-7436-45d8-8826-872182ae8385)
+
+![4](https://github.com/Sir-Rumeh/next-js-portfolio/assets/95687544/3be2ba94-6ddd-473d-bb78-044246e56a64)
 
