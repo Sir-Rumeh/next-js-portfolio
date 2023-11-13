@@ -9,8 +9,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js! Th
 
 
 
-<br>
-<br>
+
 
 
 ##🌟 Key Features:
@@ -25,8 +24,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js! Th
 
 
 
-<br>
-<br>
+
 
 
 ##👨‍💻 Technologies used for this application
