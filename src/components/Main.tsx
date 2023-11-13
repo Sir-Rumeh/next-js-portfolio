@@ -15,11 +15,11 @@ const Main = () => {
 						</h1>
 						<h1 className="py-2 text-gray-700">A Front-End Developer</h1>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
-							I’m focused on building responsive front-end web applications integrating back-end
-							technologies.
+							I&#39;m focused on building stunning responsive front-end web applications
+							integrating back-end technologies.
 						</p>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
-							I also do a little bit of backend using node.js
+							I also write backend code using node.js
 						</p>
 					</div>
 
