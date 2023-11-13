@@ -6,6 +6,9 @@
 🚀 Introducing my Next.js Portfolio 🌟
 
 Welcome to my interactive and visually stunning portfolio built with Next.js! This digital showcase is a reflection of my passion for web development, design, and innovation.
+
+
+
 <br>
 <br>
 
@@ -19,6 +22,9 @@ Welcome to my interactive and visually stunning portfolio built with Next.js! Th
 📚 Tech Stack: Discover the technologies and tools I'm proficient in, from Typescript and React to Next.js, Javascript, and more.
 
 🌐 Contact and Connect: Get in touch with me through the integrated contact form. I'm open to discussing new opportunities.
+
+
+
 <br>
 <br>
 
