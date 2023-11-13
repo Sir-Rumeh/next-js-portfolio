@@ -5,7 +5,7 @@
 ##👨‍💻 Technologies used for this application
 
 1. Next.js.
-2. Typescript.
+2. TypeScript.
 3. Tailwind CSS.
 4. AOS Library for Smooth Animations.
 5. Email JS Library.
