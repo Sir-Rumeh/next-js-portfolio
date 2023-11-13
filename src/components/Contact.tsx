@@ -48,7 +48,10 @@ const SuccessMsg = ({
 				width="700px"
 				isLoader={false}
 			>
-				<h3 className="text-center">Your message has been sent successfully</h3>
+				<div>
+					<img className="scale-75" src="/assets/success.gif" id="spinner" alt="spinner" />
+				</div>
+				<h3 className="text-center mt-2">Your message has been sent successfully</h3>
 			</CustomModal>
 		</>
 	);
@@ -71,13 +74,13 @@ const Contact = () => {
 			subject,
 			message,
 		};
-		emailjs.send(emConfig.serviceID, emConfig.templateID, templateParams, emConfig.publicID);
+		// emailjs.send(emConfig.serviceID, emConfig.templateID, templateParams, emConfig.publicID);
 		setTimeout(() => {
 			setLoading(false);
 			setShowSuccessMsg(true);
 			setTimeout(() => {
 				setShowSuccessMsg(false);
-			}, 3000);
+			}, 4000);
 		}, 1500);
 	};
 

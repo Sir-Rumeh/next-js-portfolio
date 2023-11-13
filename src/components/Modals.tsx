@@ -32,7 +32,7 @@ const CustomModal = ({ title, isOpen, setIsOpen, isLoader, children, width = "w-
 		borderRadius: "1rem",
 		boxShadow: 24,
 		px: 5,
-		py: 6,
+		py: 4,
 	};
 	const handleClose = () => setIsOpen(false);
 	return (
@@ -46,7 +46,7 @@ const CustomModal = ({ title, isOpen, setIsOpen, isLoader, children, width = "w-
 			>
 				<Box sx={boxStyle}>
 					<div className="flex flex-col space-y-6">
-						<div className="flex items-center justify-between">
+						<div className="flex items-center justify-between ">
 							<Typography id="modal-modal-description" sx={{ fontSize: 20, fontWeight: 600 }}>
 								{title}
 							</Typography>
@@ -54,7 +54,7 @@ const CustomModal = ({ title, isOpen, setIsOpen, isLoader, children, width = "w-
 								<p className="text-primary text-xl">X</p>
 							</button>
 						</div>
-						<div className="p-5">{children}</div>
+						<div className="-mt-3 pb-6">{children}</div>
 					</div>
 				</Box>
 			</Modal>
