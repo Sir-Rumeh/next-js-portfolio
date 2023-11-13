@@ -4,8 +4,8 @@ import { projects } from "../utils/constants";
 
 const Projects = () => {
 	return (
-		<div id="projects" className="w-full">
-			<div className="max-w-[1240px] mx-auto px-2 py-16">
+		<div id="projects" className="w-full lg:h-screen">
+			<div className="max-w-[1240px] mx-auto px-2 py-16" data-aos="fade-right" data-aos-duration="1000">
 				<p className="text-xl tracking-widest uppercase text-primary">Side Projects</p>
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid md:grid-cols-2 gap-8">
