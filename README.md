@@ -8,6 +8,7 @@
 Welcome to my interactive and visually stunning portfolio built with Next.js! This digital showcase is a reflection of my passion for web development, design, and innovation.
 
 
+
 ##🌟 Key Features:
 
 🎨 Stunning Visuals: Explore a carefully crafted design that showcases my projects, skills, and experiences in a visually engaging manner. Sleek animations and a responsive layout ensure a seamless experience on all devices.
@@ -17,6 +18,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js! Th
 📚 Tech Stack: Discover the technologies and tools I'm proficient in, from Typescript and React to Next.js, Javascript, and more.
 
 🌐 Contact and Connect: Get in touch with me through the integrated contact form. I'm open to discussing new opportunities.
+
 
 
 ##👨‍💻 Technologies used for this application
