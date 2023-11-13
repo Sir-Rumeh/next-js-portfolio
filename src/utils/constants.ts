@@ -73,3 +73,9 @@ export const projects = [
 		tech: "React JS",
 	},
 ];
+
+export const emConfig = {
+	serviceID: "service_8hxsh8z",
+	templateID: "template_zcj3nzr",
+	publicID: "Thia5QgjBtrZ0NeIR",
+};
