@@ -8,7 +8,7 @@
 2. Typescript.
 3. Tailwind CSS.
 4. AOS Library for Smooth Animations.
-5. EmailJS Library.
+5. Email JS Library.
 
 
 ![1](https://github.com/Sir-Rumeh/next-js-portfolio/assets/95687544/0b6d8fd3-b633-4d41-9add-2f401ea07cde)
