@@ -8,7 +8,7 @@
 Welcome to my interactive and visually stunning portfolio built with Next.js! This digital showcase is a reflection of my passion for web development, design, and innovation.
 
 
-
+<br>
 
 
 
@@ -23,7 +23,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js! Th
 🌐 Contact and Connect: Get in touch with me through the integrated contact form. I'm open to discussing new opportunities.
 
 
-
+<br>
 
 
 
