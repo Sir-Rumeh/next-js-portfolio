@@ -5,7 +5,7 @@
 
 🚀 Introducing my Next.js Portfolio 🌟
 
-Welcome to my interactive and visually stunning portfolio built with Next.js! This digital showcase is a reflection of my passion for web development, design, and innovation.
+Welcome to my interactive and visually stunning portfolio built with Next.js!
 
 
 <br>
