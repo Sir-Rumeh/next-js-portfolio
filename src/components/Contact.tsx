@@ -11,6 +11,49 @@ import emailjs from "@emailjs/browser";
 import { emConfig } from "src/utils/constants";
 import CustomModal from "./Modals";
 
+const override = {
+	display: "block",
+	margin: "0 auto",
+	borderColor: "#44A8B3",
+};
+
+const Loader = ({ loading }: { loading: boolean }) => {
+	return (
+		<div className="fixed inset-0 w-full lg:h-screen flex items-center justify-center z-40">
+			<RotateLoader
+				color={"#44A8B3"}
+				className="scale-[150%]"
+				loading={loading}
+				cssOverride={override}
+				size={18}
+				aria-label="Loading Spinner"
+				data-testid="loader"
+			/>
+		</div>
+	);
+};
+const SuccessMsg = ({
+	showSuccessMsg,
+	setShowSuccessMsg,
+}: {
+	showSuccessMsg: boolean;
+	setShowSuccessMsg: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
+	return (
+		<>
+			<CustomModal
+				isOpen={showSuccessMsg}
+				setIsOpen={setShowSuccessMsg}
+				title="Email Sent"
+				width="700px"
+				isLoader={false}
+			>
+				<h3 className="text-center">Your message has been sent successfully</h3>
+			</CustomModal>
+		</>
+	);
+};
+
 const Contact = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
@@ -18,43 +61,6 @@ const Contact = () => {
 	const [message, setMessage] = useState("");
 	const [loading, setLoading] = useState(false);
 	const [showSuccessMsg, setShowSuccessMsg] = useState(false);
-
-	const override = {
-		display: "block",
-		margin: "0 auto",
-		borderColor: "#44A8B3",
-	};
-
-	const Loader = () => {
-		return (
-			<div className="fixed inset-0 w-full lg:h-screen flex items-center justify-center z-40">
-				<RotateLoader
-					color={"#44A8B3"}
-					className="scale-[150%]"
-					loading={loading}
-					cssOverride={override}
-					size={18}
-					aria-label="Loading Spinner"
-					data-testid="loader"
-				/>
-			</div>
-		);
-	};
-	const SuccessMsg = () => {
-		return (
-			<>
-				<CustomModal
-					isOpen={showSuccessMsg}
-					setIsOpen={setShowSuccessMsg}
-					title="Email Sent"
-					width="700px"
-					isLoader={false}
-				>
-					<h3 className="text-center">Your message has been sent successfully</h3>
-				</CustomModal>
-			</>
-		);
-	};
 
 	const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -163,6 +169,7 @@ const Contact = () => {
 											className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
 											type="text"
 											name="name"
+											autoComplete="on"
 											onChange={(e) => setName(e.target.value)}
 										/>
 									</div>
@@ -175,6 +182,7 @@ const Contact = () => {
 											className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
 											type="email"
 											name="email"
+											autoComplete="on"
 											onChange={(e) => setEmail(e.target.value)}
 										/>
 									</div>
@@ -187,6 +195,7 @@ const Contact = () => {
 											className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-primary"
 											type="text"
 											name="subject"
+											autoComplete="off"
 											onChange={(e) => setSubject(e.target.value)}
 										/>
 									</div>
@@ -199,6 +208,7 @@ const Contact = () => {
 											className="border-2 rounded-lg p-3 border-gray-300 resize-none focus:outline-primary"
 											rows={10}
 											name="message"
+											autoComplete="off"
 											onChange={(e) => setMessage(e.target.value)}
 										></textarea>
 									</div>
@@ -218,8 +228,8 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			{loading && <Loader />}
-			{showSuccessMsg && <SuccessMsg />}
+			{loading && <Loader loading={loading} />}
+			{showSuccessMsg && <SuccessMsg showSuccessMsg={showSuccessMsg} setShowSuccessMsg={setShowSuccessMsg} />}
 		</>
 	);
 };
