@@ -17,12 +17,14 @@ export default function Home() {
 				/>
 				<link rel="icon" href="/fav.ico" />
 			</Head>
-			<Main />
-			<About />
-			<Skills />
-			<Experience />
-			<Projects />
-			<Contact />
+			<div className="overflow-x-hidden">
+				<Main />
+				<About />
+				<Skills />
+				<Experience />
+				<Projects />
+				<Contact />
+			</div>
 		</div>
 	);
 }

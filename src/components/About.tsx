@@ -34,7 +34,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-					<div data-aos="fade-left" data-aos-duration="1000">
+					<div data-aos="fade-up" data-aos-duration="1000">
 						<Image src={AboutImg} className="rounded-xl " alt="/" height={800} loading="lazy" />
 					</div>
 				</div>

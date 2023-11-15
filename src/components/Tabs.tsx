@@ -21,14 +21,19 @@ function CustomTabPanel(props: TabPanelProps) {
 
 	return (
 		<div
-			className="py-1 px-5 overflow-y-scroll md:overflow-y-hidden"
+			className="py-1 px-2 md:px-5 overflow-y-scroll md:overflow-y-hidden"
 			role="tabpanel"
 			hidden={value !== index}
 			id={`simple-tabpanel-${index}`}
 			aria-labelledby={`simple-tab-${index}`}
 			{...other}
 		>
-			{value === index && <div className="">{children}</div>}
+			{/* DESKTOP */}
+			{value === index && <div className="hidden md:block">{children}</div>}
+			{/* MOBILE */}
+			<div className="block md:hidden overflow-y-scroll h-[450px] ">
+				{value === index && <div className="mt-2">{children}</div>}
+			</div>
 		</div>
 	);
 }
@@ -56,44 +61,89 @@ export default function BasicTabs({ tabList, tabPanel, initialIndex }: BasicTabs
 
 	return (
 		<>
-			<Box
-				sx={{
-					width: "100%",
-					display: "flex",
-					height: "30rem",
-				}}
-			>
-				<Box>
-					<Tabs
-						value={value}
-						onChange={handleChange}
-						aria-label="basic tabs example"
-						orientation="vertical"
-						variant="scrollable"
-					>
-						{tabList.map((item, index) => (
-							<Tab
-								label={item}
-								{...a11yProps(index)}
-								key={item}
-								sx={{
-									color: "#44A8B3",
-									marginTop: `${index == 0 ? "" : "1rem"}`,
-									marginBottom: `${index == tabList.length - 1 ? "0.1rem" : ""}`,
-									fontSize: "16px",
-									borderBottom: 1,
-									borderColor: "divider",
-								}}
-							/>
-						))}
-					</Tabs>
+			{/* DESKTOP */}
+			<div className="hidden md:block">
+				<Box
+					sx={{
+						width: "100%",
+						display: "flex",
+						height: "30rem",
+					}}
+				>
+					<Box>
+						<Tabs
+							value={value}
+							onChange={handleChange}
+							aria-label="basic tabs example"
+							orientation="vertical"
+							variant="scrollable"
+						>
+							{tabList.map((item, index) => (
+								<Tab
+									label={item}
+									{...a11yProps(index)}
+									key={item}
+									sx={{
+										color: "#44A8B3",
+										marginTop: `${index == 0 ? "" : "1rem"}`,
+										marginBottom: `${index == tabList.length - 1 ? "0.1rem" : ""}`,
+										fontSize: "16px",
+										borderBottom: 1,
+										borderColor: "divider",
+									}}
+								/>
+							))}
+						</Tabs>
+					</Box>
+					{childrenNode.map((item, index) => (
+						<CustomTabPanel value={value} index={index} key={Math.random() * childrenNode.length}>
+							{item}
+						</CustomTabPanel>
+					))}
 				</Box>
-				{childrenNode.map((item, index) => (
-					<CustomTabPanel value={value} index={index} key={Math.random() * childrenNode.length}>
-						{item}
-					</CustomTabPanel>
-				))}
-			</Box>
+			</div>
+
+			{/* MOBILE */}
+			<div className="block md:hidden">
+				<Box
+					sx={{
+						width: "100%",
+						display: "block",
+						height: "30rem",
+					}}
+				>
+					<Box>
+						<Tabs
+							value={value}
+							onChange={handleChange}
+							aria-label="basic tabs example"
+							orientation="horizontal"
+							variant="scrollable"
+						>
+							{tabList.map((item, index) => (
+								<Tab
+									label={item}
+									{...a11yProps(index)}
+									key={item}
+									sx={{
+										color: "#44A8B3",
+										marginTop: `${index == 0 ? "" : "1rem"}`,
+										marginBottom: `${index == tabList.length - 1 ? "0.1rem" : ""}`,
+										fontSize: "16px",
+										borderBottom: 1,
+										borderColor: "divider",
+									}}
+								/>
+							))}
+						</Tabs>
+					</Box>
+					{childrenNode.map((item, index) => (
+						<CustomTabPanel value={value} index={index} key={Math.random() * childrenNode.length}>
+							{item}
+						</CustomTabPanel>
+					))}
+				</Box>
+			</div>
 		</>
 	);
 }
