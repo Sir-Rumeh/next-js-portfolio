@@ -12,7 +12,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js!
 
 
 
-##🌟 Key Features:
+## 🌟 Key Features:
 
 1. 🎨 Stunning Visuals: Explore a carefully crafted design that showcases my projects, skills, and experiences in a visually engaging manner. Sleek animations and a responsive layout ensure a seamless experience on all devices.
 
@@ -27,7 +27,7 @@ Welcome to my interactive and visually stunning portfolio built with Next.js!
 
 
 
-##👨‍💻 Technologies used for this application
+## 👨‍💻 Technologies used for this application
 
 1. Next.js.
 2. TypeScript.
