@@ -18,8 +18,8 @@ const Experience = () => {
 
 	const MuzzlabExperience = {
 		companyName: "Muzzlab Technologies",
-		// role: "Front-End Developer",
-		// duration: "April 2020 - July 2022",
+		role: "Front-End Developer",
+		duration: "April 2020 - July 2022",
 		activities: [
 			"Collaborated with the project manager and backend engineer.",
 			"Designed and developed the client side of the sub-company’s ( Illusion Decals ) website while writing re-usable and easy to maintain codes.",
