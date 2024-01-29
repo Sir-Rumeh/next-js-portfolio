@@ -4,9 +4,9 @@ import BasicTabs from "./Tabs";
 
 const Experience = () => {
 	const FCMBExperience = {
-		// companyName: "First City Monument Bank",
-		// role: "Front-End Developer",
-		// duration: "July 2022 - Present",
+		companyName: "First City Monument Bank",
+		role: "Front-End Developer",
+		duration: "July 2022 - Present",
 		activities: [
 			// "Collaborated with a team of professional engineers to plan, design, build, and implement the user interface systems of web-based applications and provide a satisfactory user experience with no issues, errors, or downtime.",
 			"Contributed to the building and optimization of some in-house applications to optimize productivity as well as customer-facing account management applications, which increased customer inflow by automating account opening processes.",
