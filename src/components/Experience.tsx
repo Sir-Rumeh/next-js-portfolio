@@ -8,7 +8,7 @@ const Experience = () => {
 		// role: "Front-End Developer",
 		// duration: "July 2022 - Present",
 		activities: [
-			"Collaborated with a team of professional engineers to plan, design, build, and implement the user interface systems of web-based applications and provide a satisfactory user experience with no issues, errors, or downtime.",
+			// "Collaborated with a team of professional engineers to plan, design, build, and implement the user interface systems of web-based applications and provide a satisfactory user experience with no issues, errors, or downtime.",
 			"Contributed to the building and optimization of some in-house applications to optimize productivity as well as customer-facing account management applications, which increased customer inflow by automating account opening processes.",
 			"Played an active role in testing, troubleshooting, and resolving issues such as those related to performance, accessibility,  browser compatibility, and security.",
 			"Reviewing and approving pull requests from other team members.",
