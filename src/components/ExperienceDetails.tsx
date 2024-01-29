@@ -22,8 +22,8 @@ const Details: React.FC<ExperienceDetails> = ({ experienceDetails }) => {
 				{experienceDetails.activities.map((activity) => {
 					return (
 						<li key={activity} className="mt-4 text-lg cursor-text flex items-start gap-x-3">
-							{/* <span className="scale-150">&#x2022;</span>
-							{activity} */}
+							<span className="scale-150">&#x2022;</span>
+							{activity}
 						</li>
 					);
 				})}
