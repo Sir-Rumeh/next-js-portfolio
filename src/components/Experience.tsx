@@ -22,7 +22,7 @@ const Experience = () => {
 		// duration: "April 2020 - July 2022",
 		activities: [
 			"Collaborated with the project manager and backend engineer.",
-			// "Designed and developed the client side of the sub-company’s ( Illusion Decals ) website while writing re-usable and easy to maintain codes.",
+			"Designed and developed the client side of the sub-company’s ( Illusion Decals ) website while writing re-usable and easy to maintain codes.",
 			"Ensured cross-platform development and optimization for mobile responsiveness.",
 		],
 	};
