@@ -39,10 +39,12 @@ const Experience = () => {
 				<div className="mt-2 ">
 					<BasicTabs
 						tabList={["FCMB", "Muzzlab"]}
-						tabPanel={[
-							<Details key={"FCMB"} experienceDetails={FCMBExperience} />,
-							// <Details key={"mUZZLAB"} experienceDetails={MuzzlabExperience} />,
-						]}
+						tabPanel={
+							[
+								// <Details key={"FCMB"} experienceDetails={FCMBExperience} />,
+								// <Details key={"mUZZLAB"} experienceDetails={MuzzlabExperience} />,
+							]
+						}
 					/>
 				</div>
 			</div>
