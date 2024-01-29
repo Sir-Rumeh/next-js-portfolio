@@ -41,7 +41,7 @@ const Experience = () => {
 						tabList={["FCMB", "Muzzlab"]}
 						tabPanel={[
 							<Details key={"FCMB"} experienceDetails={FCMBExperience} />,
-							<Details key={"mUZZLAB"} experienceDetails={MuzzlabExperience} />,
+							// <Details key={"mUZZLAB"} experienceDetails={MuzzlabExperience} />,
 						]}
 					/>
 				</div>
