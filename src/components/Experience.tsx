@@ -4,7 +4,7 @@ import BasicTabs from "./Tabs";
 
 const Experience = () => {
 	const FCMBExperience = {
-		companyName: "First City Monument Bank",
+		// companyName: "First City Monument Bank",
 		role: "Front-End Developer",
 		duration: "July 2022 - Present",
 		activities: [
