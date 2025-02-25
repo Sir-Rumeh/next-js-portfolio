@@ -73,12 +73,12 @@ export const projects = [
 		projectUrl: "/projects/react-dashboard",
 		tech: "React JS",
 	},
-	{
-		name: "React Movie App",
-		image: MovieApp,
-		projectUrl: "/projects/movie-app",
-		tech: "React JS",
-	},
+	// {
+	// 	name: "React Movie App",
+	// 	image: MovieApp,
+	// 	projectUrl: "/projects/movie-app",
+	// 	tech: "React JS",
+	// },
 ];
 
 export const emConfig = {
