@@ -8,7 +8,7 @@ const Skills = () => {
 			<div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
 				<div data-aos="fade-down-right" data-aos-duration="1200">
 					<p className="text-xl tracking-widest uppercase text-primary">Skills</p>
-					<h2 className="py-4">Technologies I Use</h2>
+					<h2 className="py-4">Some Technologies I Use</h2>
 					<div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 mt-2">
 						{skills.map((skill) => {
 							return (
