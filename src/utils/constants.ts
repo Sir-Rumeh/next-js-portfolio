@@ -11,6 +11,7 @@ import WhatsappClone from "public/assets/projects/whatsapp-web-clone/whatsapp.pn
 import Easymunch from "public/assets/projects/easy-munch/munch.png";
 import ReactDashboard from "public/assets/projects/react-dashboard/dashboard.png";
 import MovieApp from "public/assets/projects/react-movie-app/movie.png";
+import Hyperloop from "public/assets/projects/hyperloop/hyperloop.png";
 
 export const skills = [
 	{
@@ -48,6 +49,12 @@ export const skills = [
 ];
 
 export const projects = [
+	{
+		name: "Hyperloop",
+		image: Hyperloop,
+		projectUrl: "/projects/hyperloop",
+		tech: "Next JS",
+	},
 	{
 		name: "Whatsapp Web Clone",
 		image: WhatsappClone,
